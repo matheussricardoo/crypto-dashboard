@@ -3,19 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #000000;
+  --card-bg: #111111;
+  --text: #ffffff;
+  --grid-size: 30px;
 }
 
 body {
-  color: var(--foreground);
+  min-height: 100vh;
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: 
+    radial-gradient(circle at 15px 15px, rgba(255, 255, 255, 0.03) 2px, transparent 0);
+  background-size: var(--grid-size) var(--grid-size);
+}
+
+.crypto-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.crypto-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.glass-effect {
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+select option {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Estilização da scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
