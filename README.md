@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Dashboard - Real-time Cryptocurrency Tracker
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:3B82F6&height=200&section=header&text=Crypto%20Dashboard&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Next.js%20|%20React%20|%20TailwindCSS%20|%20Chart.js&descAlignY=60&descSize=18">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <i>🚀 A modern and minimalist cryptocurrency dashboard built with cutting-edge technologies for real-time market tracking.</i>
+</p>
+
+<p align="center">
+  <i>🚀 Um dashboard minimalista e moderno de criptomoedas construído com tecnologias de ponta para acompanhamento do mercado em tempo real.</i>
+</p>
+
+---
+
+### 🌟 Features | Funcionalidades
+
+<div align="center">
+
+|  Feature  | Description | Descrição |
+|:---------:|:------------|:----------|
+| 💱 | Real-time cryptocurrency price tracking | Acompanhamento de preços em tempo real |
+| 🔄 | Currency converter with multiple options | Conversor com múltiplas opções de moedas |
+| 📊 | Table and card view options | Opções de visualização em tabela e cards |
+| ⭐ | Favorite cryptocurrencies system | Sistema de criptomoedas favoritas |
+| 🌎 | Available in English and Portuguese | Disponível em Inglês e Português |
+| 🔍 | Advanced filtering and sorting | Filtragem e ordenação avançada |
+| 📈 | Market trends and statistics | Tendências e estatísticas do mercado |
+
+</div>
+
+### 📦 Dependencies | Dependências
+
+```
+next: 14.0.3
+react: 18.2.0
+react-dom: 18.2.0
+chart.js: 4.4.1
+react-chartjs-2: 5.2.0
+tailwindcss: 3.4.1
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Installation | Instalação
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+# Clone the repository | Clone o repositório
+git clone https://github.com/matheussricardoo/crypto-dashboard.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Navigate to project directory | Entre no diretório do projeto
+cd crypto-dashboard
 
-## Learn More
+# Install dependencies | Instale as dependências
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Start development server | Inicie o servidor de desenvolvimento
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Access the application | Acesse a aplicação
+Open http://localhost:3000 in your browser | Abra http://localhost:3000 no seu navegador
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📁 Project Structure | Estrutura do Projeto
 
-## Deploy on Vercel
+<div align="center">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Directory | Purpose | Propósito |
+|:---------:|:--------|:----------|
+| `/src/app` | Main application routes and layouts | Rotas principais e layouts da aplicação |
+| `/src/components` | Reusable UI components | Componentes reutilizáveis da interface |
+| `/src/utils` | Helper functions and utilities | Funções auxiliares e utilitários |
+| `/src/hooks` | Custom React hooks | Hooks personalizados do React |
+| `/src/services` | External services and API calls | Serviços externos e chamadas de API |
+| `/public` | Static assets and images | Arquivos estáticos e imagens |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</div>
+
+### 🎨 Color Palette | Paleta de Cores
+
+<div align="center">
+
+| Color | Hex | Usage | Uso |
+|:-----:|:---:|:------|:----|
+| Background | #000000 | Main background | Fundo principal |
+| Card Background | #111111 | Cards and components | Cards e componentes |
+| Accent Blue | #3B82F6 | Interactive elements | Elementos interativos |
+| Success Green | #22c55e | Positive values | Valores positivos |
+| Error Red | #ef4444 | Negative values | Valores negativos |
+| Text White | #ffffff | Primary text | Texto principal |
+| Text Gray | #71717a | Secondary text | Texto secundário |
+| Border | rgba(255, 255, 255, 0.05) | Borders and dividers | Bordas e divisores |
+| Hover | rgba(255, 255, 255, 0.1) | Hover states | Estados de hover |
+| Star Yellow | #facc15 | Favorite icons | Ícones de favoritos |
+
+</div>
+
+### 👤 Author | Autor
+
+<div align="center">
+  <a href="https://github.com/matheussricardoo" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/matheus-ricardo-426452266/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
+  </a>
+</div>
+
+### 📄 License | Licença
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:3B82F6&height=120&section=footer"/>
+
+</div>
