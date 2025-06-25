@@ -1,5 +1,3 @@
-# Crypto Dashboard - Real-time Cryptocurrency Tracker
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:3B82F6&height=200&section=header&text=Crypto%20Dashboard&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Next.js%20|%20React%20|%20TailwindCSS%20|%20Chart.js&descAlignY=60&descSize=18">
